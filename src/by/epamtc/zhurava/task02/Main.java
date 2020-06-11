@@ -68,8 +68,10 @@ public class Main {
 	 */
 	private static String divideEvenAndUnevenSymbols(String text) {
 
-		StringBuilder unevenSymbols = new StringBuilder();
-		StringBuilder evenSymbols = new StringBuilder();
+		StringBuilder unevenSymbols;
+		unevenSymbols = new StringBuilder();
+		StringBuilder evenSymbols;
+		evenSymbols = new StringBuilder();
 
 		for (int index = 0; index < text.length(); index++) {
 
