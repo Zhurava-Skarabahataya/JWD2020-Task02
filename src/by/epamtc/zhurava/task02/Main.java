@@ -50,8 +50,7 @@ public class Main {
 
 		System.out.println(addSpaces(text2));
 
-		boolean isPalindrindromic = isPalindrom(text3);
-		System.out.println(isPalindrindromic);
+		System.out.println("Палиндром? " + isPalindrom(text3));
 
 		System.out.println(replacingSubstring(text, "ноктюрн", "менуэт"));
 
